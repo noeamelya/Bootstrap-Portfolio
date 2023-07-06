@@ -1,0 +1,123 @@
+:root {
+
+    --NAVBGBOLOR-- : white;
+    --NAVFONTCOLOR-- : rgb(29, 26, 26);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar section */
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: var(--NAVFONTCOLOR--);
+    font-size: 1rem;
+    font-weight: 500; 
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.nav-link:hover {
+    color: gray;
+    background-color: black ;
+
+}
+
+/* jumbotron  */
+.container-fluid {
+    background-image: url(../images/IMG_2762.JPG);
+    
+
+}
+h3 {
+    font-size: 50px;
+    font-weight: 400;
+    color: bisque;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+p {
+    color: bisque;
+    font-size: 15px;
+
+}
+
+.btn {
+    background-color: bisque;
+    font-size: 15px;
+    color: var(--NAVFONTCOLOR--);
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    
+}
+
+/* main about */
+
+.about {
+    padding: 20px;
+    margin: auto;
+}
+
+.row {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.about img {
+    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+
+}
+
+hi {
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about p {
+    font-size: 20px;
+    font-style: italic;
+    color: var(--NAVFONTCOLOR--);
+}
+
+/* progress section */
+
+.progress {
+    background-color: antiquewhite;
+    padding: 10px;
+    justify-content: flex-start;
+    border-radius: 50px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    float: right;
+
+}
+
+.progress-bar1 {
+    animation: bar1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+    padding: -5px;
+    
+}
+
+.progress 
