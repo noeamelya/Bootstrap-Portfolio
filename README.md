@@ -1,6 +1,13 @@
 # UX and Advanced CSS : Bootstrap-Portfolio
 
+## DESCRIPTION
+
+## TABLE OF CONTENT
+
+## INSTRUCTION 
+
 Using Bootstrap, recreate your portfolio site with the following items:
+
 * A navigation bar
 
 * A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
