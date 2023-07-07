@@ -5,7 +5,7 @@
 
     --color-body: rgb(176, 171, 155);
     --color-heading: rgb(115, 93, 72) ;
-    --color-base: rgba(43, 36, 23, 0.493);
+    --color-base: rgba(225, 168, 107, 0.493);
     --color-base2: rgb(221, 148, 64);
     --color-font-heading: rgb(64, 36, 7);
     --color-font: rgb(135, 77, 41);
@@ -29,43 +29,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: var(--color-base);
+    color: var(--color-base2);
     text-decoration: none;
     transition: all 0.4s ease;
 }
 
 a:hover {
-    color: var(--color-base2);
+    color: var(--color-base);
 }
 
 img {
     width: 100%;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/* navbar section */
-.navbar {
-    background-color: white;
-}
 
-.nav-link {
-    color: var(--NAVFONTCOLOR--);
-    font-size: 1rem;
-    font-weight: 500; 
-    cursor: pointer;
-    text-decoration: none;
-    display: inline;
+/* NAVBAR */
 
+@media (min-width: 992px){
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgb(129, 121, 111), rgb(55, 30, 9)), url(../images/p1.png);
+    }
 }
 
-.nav-link:hover {
-    color: gray;
-    background-color: black ;
 
-}
+
+
+
 
 /* jumbotron  */
 .container-fluid {
@@ -156,6 +146,3 @@ hi {
     
 }
 
-.progress {
-
-}
