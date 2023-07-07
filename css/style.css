@@ -35,22 +35,49 @@ a {
 }
 
 a:hover {
-    color: var(--color-base);
+    color: black;
+    background-color: bisque;
 }
 
 img {
     width: 100%;
+    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    
 }
 
 /* NAVBAR */
+
+.nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: bisque;
+
+
+}
+
+.nav-link:hover {
+    color: var(--color-body);
+
+}
 
 @media (min-width: 992px){
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
         background: linear-gradient(rgb(129, 121, 111), rgb(55, 30, 9)), url(../images/p1.png);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .nav-brand img {
+        
     }
 }
+
+
 
 
 
