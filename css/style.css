@@ -23,9 +23,10 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--color-font-heading);
+h6 {
+    color: var(--color-font);
     font-weight: 600;
+
 }
 
 a {
@@ -40,7 +41,6 @@ a:hover {
 }
 
 img {
-    width: 100%;
     -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
@@ -64,39 +64,85 @@ img {
 
 @media (min-width: 992px){
     .navbar {
-        min-height: 100vh;
-        width: var(--sidbar-width);
+        min-height: 10vh;
         background: linear-gradient(rgb(129, 121, 111), rgb(55, 30, 9)), url(../images/p1.png);
         background-size: cover;
         background-position: center;
 
     }
 
-    .nav-brand img {
-        
+    .home {
+        width: 100%;
     }
 }
+/* HERO */
 
-
-
-
-
-
-
-
-/* jumbotron  */
 .container-fluid {
-    background-image: url(../images/IMG_2762.JPG);
+    background-color: var(--color-body);
+    position: relative;
+    height: 500px;
+    align-items: center;
     
-
 }
 h3 {
     font-size: 50px;
     font-weight: 400;
     color: bisque;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--font-base)
     font-style: italic;
 }
+
+.container-fluid p {
+
+}
+
+/* Work Section as card */
+
+.container h4 {
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-size: 50px;
+        text-decoration: none;
+        text-shadow: 1px color(srgb rgb(104, 99, 99) rgb(164, 167, 164) rgb(220, 164, 108));
+        text-align: center;
+    
+
+}
+.container
+.cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+h4 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow: 1px color(srgb rgb(104, 99, 99) rgb(164, 167, 164) rgb(220, 164, 108));
+    text-align: center;
+
+
+}
+.card {
+    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-body {
+    font-family: var(--font-base);
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 p {
     color: bisque;
@@ -108,68 +154,24 @@ p {
     background-color: bisque;
     font-size: 15px;
     color: var(--NAVFONTCOLOR--);
-    font-family:'Times New Roman', Times, serif;
-    border: 1px solid black;
+    font-family:var(--font-base);
+    border: 1px solid rgb(42, 31, 22);
     border-radius: 10px;
+     
+}
 
-    
+.btn:hover {
+    background-color: var(--color-body);
+    border: 1px solid var(--color-font-heading);
 }
 
 /* main about */
 
-.about {
-    padding: 20px;
-    margin: auto;
-}
-
-.row {
-    padding-left: 20px;
-    padding-top: 20px;
-}
 
 .about img {
     -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
 
-}
-
-hi {
-    font-size: 50px;
-    font-weight: 600;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.about p {
-    font-size: 20px;
-    font-style: italic;
-    color: var(--NAVFONTCOLOR--);
-}
-
-/* progress section */
-
-.progress {
-    background-color: antiquewhite;
-    padding: 10px;
-    justify-content: flex-start;
-    border-radius: 50px;
-    position: relative;
-    align-items: center;
-    display: flex;
-    height: 25px;
-    width: 100%;
-    float: right;
-
-}
-
-.progress-bar1 {
-    animation: bar1 3s normal forwards;
-    border-radius: 50px;
-    background-color: black;
-    height: 25px;
-    width: 0;
-    padding: -5px;
-    
 }
 
