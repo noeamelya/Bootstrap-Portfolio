@@ -49,6 +49,9 @@ img {
 
 /* NAVBAR */
 
+.navbar-brand span {
+    color: var(--color-font);
+}
 .nav-link {
     font-weight: 600;
     text-transform: uppercase;
@@ -77,55 +80,31 @@ img {
 }
 /* HERO */
 
-.container-fluid {
-    background-color: var(--color-body);
-    position: relative;
-    height: 500px;
-    align-items: center;
-    
-}
-h3 {
+
+
+
+.home-text h1 {
     font-size: 50px;
     font-weight: 400;
-    color: bisque;
-    font-family: var(--font-base)
+    color: var(--color-font);
+    font-family: var(--font-base);
     font-style: italic;
 }
 
-.container-fluid p {
 
-}
 
 /* Work Section as card */
 
-.container h4 {
-        padding-top: 20px;
-        text-transform: uppercase;
-        font-size: 50px;
-        text-decoration: none;
-        text-shadow: 1px color(srgb rgb(104, 99, 99) rgb(164, 167, 164) rgb(220, 164, 108));
-        text-align: center;
-    
 
-}
-.container
 .cardContainer {
     margin-top: 50px;
     margin-bottom: 50px;
     
 }
 
-h4 {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-size: 50px;
-    text-decoration: none;
-    text-shadow: 1px color(srgb rgb(104, 99, 99) rgb(164, 167, 164) rgb(220, 164, 108));
-    text-align: center;
 
-
-}
 .card {
+    background-color: transparent;
     -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
     box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
@@ -136,11 +115,6 @@ h4 {
     font-family: var(--font-base);
     text-align: center;
 }
-
-
-
-
-
 
 
 
@@ -164,14 +138,24 @@ p {
     background-color: var(--color-body);
     border: 1px solid var(--color-font-heading);
 }
+/* gallery section */
 
-/* main about */
 
-
-.about img {
-    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-
+/* freelance section */
+.freelance-available {
+    background-color: var(--color-font);
+    box-shadow: 1px gradient white;
+    padding: 5px;
+    border-radius: 20px;
 }
 
+/* Contact section */
+
+
+/* footer section */
+
+
+.container-footer {
+    border-radius: 20%;
+    
+}
