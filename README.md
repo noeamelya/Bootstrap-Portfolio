@@ -1,12 +1,20 @@
-# UX and Advanced CSS : Bootstrap-Portfolio
+![Portfolio]()
+
+# UX and Advanced HTML & CSS : Portfolio with Bootstrap 5.3
 
 ## DESCRIPTION
+Simple, elegant and creative portfolio template for showcase portfolio or personal information. It is responsive website template created with Bootstrap 5.3. Clean source code and well organized files for easy to customization. This template hope gives a personal space to share what you are all about as a creative designer, developer, photographer or pretty much any profession!
 
-## TABLE OF CONTENT
+## Most important features :
+
+    1. Fully responsive
+    2. Easy installation
+    3. Easy to use and customize
+    4. Simple and elegant
 
 ## INSTRUCTION 
 
-Using Bootstrap, recreate your portfolio site with the following items:
+Using Bootstrap, recreate a portfolio site with the following items:
 
 * A navigation bar
 
@@ -44,13 +52,17 @@ All hyperlinks should have a hover effect.
 
 All buttons should display a box shadow upon hover.
 
-##
+## Useful Links :
+Bootstrap 5.3 : https://getbootstrap.com/
 
-##
+Introduction bootstrap : https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
-## Instructions
+Font Awesome : https://fontawesome.com/
 
-* 
+
+
+
+
 
 ## OUTCOME
 
@@ -58,11 +70,20 @@ Deploy the link [Git Hub](https://github.com/noeamelya/Bootstrap-Portfolio)
 
 ![My Portfolio Project]()
 
+
 ## LICENSE
 
 MIT
 
-## CONTACT
+## Contact
+Email : noeamelyaofficial@hotmail.com
 
-noeamelyaofficial@hotmail.com
+Instagram : https://www.instagram.com/noe_amelya/
+
+Facebook : https://www.facebook.com/model.noeamelya/
+
+Twitter : https://www.twitter.com/noeamelya
+
+GitHub : https://github.com/noeamelya
+
 
