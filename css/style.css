@@ -23,11 +23,6 @@ body {
 
 }
 
-h6 {
-    color: var(--color-font);
-    font-weight: 600;
-
-}
 
 a {
     color: var(--color-base2);
@@ -78,45 +73,6 @@ img {
         width: 100%;
     }
 }
-/* HERO */
-
-
-
-
-.home-text h1 {
-    font-size: 50px;
-    font-weight: 400;
-    color: var(--color-font);
-    font-family: var(--font-base);
-    font-style: italic;
-}
-
-
-
-/* Work Section as card */
-
-
-.cardContainer {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
-
-
-.card {
-    background-color: transparent;
-    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.card-body {
-    font-family: var(--font-base);
-    text-align: center;
-}
-
-
 
 p {
     color: bisque;
@@ -138,6 +94,58 @@ p {
     background-color: var(--color-body);
     border: 1px solid var(--color-font-heading);
 }
+
+/* HERO */
+
+.hero {
+    transition: all 8s ease;
+}
+.home-text h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--color-font);
+    font-family: var(--font-base);
+    font-style: italic;
+}
+
+
+
+/* Work Section as card */
+
+.cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card {
+    background: none;
+
+}
+
+.card-body {
+    font-family: var(--font-base);
+    text-align: center;
+    -webkit-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    -moz-box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    box-shadow: -22px 3px 107px 7px rgba(0,0,0,0.68);
+    border: 1px solid var(--color-base);
+    border-radius: 10%;
+}
+
+
+
+
+
+/* Skill section */
+
+.box {
+    border-bottom: 3px solid var(--color-font);
+    border-left: 3px solid var(--color-font);
+    border-radius: 20%;
+    transition: all .8s ease;
+}
 /* gallery section */
 
 
@@ -155,7 +163,14 @@ p {
 /* footer section */
 
 
-.container-footer {
-    border-radius: 20%;
+footer {
+    background-color: var(--color-font);
+    border: 1px solid var(--color-base2);
     
+    
+}
+h6 {
+    color: var(--color-font);
+    font-weight: 600;
+
 }
