@@ -59,6 +59,12 @@ Introduction bootstrap : https://getbootstrap.com/docs/5.3/getting-started/intro
 
 Font Awesome : https://fontawesome.com/
 
+Javascripst : 
+    ![Js bootstrap](./images/js-bootstrap.png)
+
+CSS Bootstrap :
+    ![Css Bootstrap](./images/css-bootstrap.png)
+
 
 
 
@@ -66,7 +72,7 @@ Font Awesome : https://fontawesome.com/
 
 ## OUTCOME
 
-Deploy the link [Git Hub](https://github.com/noeamelya/Bootstrap-Portfolio)
+Deploy the link portfolio project [Git Hub]( )
 
 ![My Portfolio Project]()
 
