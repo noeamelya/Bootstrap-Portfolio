@@ -1,4 +1,4 @@
-
+![Portfolio pic](./images/portfoliobt5.png)
 # UX and Advanced HTML & CSS : Portfolio with Bootstrap 5.3
 
 ## DESCRIPTION
@@ -73,7 +73,8 @@ CSS Bootstrap :
 
 Deploy the link portfolio project [Git Hub]( )
 
-![My Portfolio Project](./images/portfoliobt5.png)
+![My Portfolio Project](./images/outcome.png)
+![My Portfolio info](./images/outcome2.png)
 
 
 ## LICENSE
