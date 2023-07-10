@@ -76,7 +76,6 @@ Deploy the link portfolio project [Git Hub]( )
 ![My Portfolio Project](./images/outcome.png)
 ![My Portfolio info](./images/outcome2.png)
 
-
 ## LICENSE
 
 MIT
