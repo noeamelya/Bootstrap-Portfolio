@@ -13,7 +13,6 @@
     --font-base: "Belanosima"
 
 
-
 }
 
 body {
@@ -24,7 +23,6 @@ body {
     padding: 5px;
 
 }
-
 
 a {
     color: var(--color-base2);
@@ -44,8 +42,30 @@ img {
     
 }
 
+p {
+    color: bisque;
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 45px;
+    color: var(--color-font);
+
+}
+
+h3 {
+    font-size: 35px;
+    color: var(--color-font);
+    fo
+
+}
+
 /* NAVBAR */
 
+.navbar {
+    
+}
 .navbar-brand span {
     color: var(--color-font);
 }
@@ -53,6 +73,7 @@ img {
     font-weight: 600;
     text-transform: uppercase;
     color: bisque;
+    font-size: 30px;
 
 }
 
@@ -62,15 +83,10 @@ img {
 }
 
 
-p {
-    color: bisque;
-    font-size: 15px;
-
-}
 
 .btn {
     background-color: bisque;
-    font-size: 15px;
+    font-size: 20px;
     color: var(--NAVFONTCOLOR--);
     font-family:var(--font-base);
     border: 1px solid rgb(42, 31, 22);
@@ -83,18 +99,16 @@ p {
     border: 1px solid var(--color-font-heading);
 }
 
-/* HERO */
+/* JUMBOTRON */
 
-.home {
-    transition: all 8s ease;
+.jumbotron {
+    background-image: url(../images/jumbotron1.png);
+    background-position: cover;
+    height: 500;
+    
+
 }
-.home-text h1 {
-    font-size: 50px;
-    font-weight: 400;
-    color: var(--color-font);
-    font-family: var(--font-base);
-    font-style: italic;
-}
+
 
 
 
@@ -111,7 +125,7 @@ p {
 
 }
 
-.card-body {
+.cardbody {
     font-family: var(--font-base);
     text-align: center;
     -webkit-box-shadow: -22px 3px 107px 7px rgba(199, 189, 189, 0.68);
@@ -137,7 +151,6 @@ p {
     transition: all .8s ease;
     
 }
-/* gallery section */
 
 
 /* freelance section */
@@ -154,7 +167,7 @@ p {
 /* footer section */
 
 
-footer {
+.footer {
     background-color: var(--color-font);
     border: 1px solid var(--color-base2);
     
