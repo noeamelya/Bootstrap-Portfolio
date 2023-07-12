@@ -1,4 +1,3 @@
-![Portfolio pic](./images/portfoliobt5.png)
 # UX and Advanced HTML & CSS : Portfolio with Bootstrap 5.3
 
 ## DESCRIPTION
@@ -71,10 +70,9 @@ CSS Bootstrap :
 
 ## OUTCOME
 
-Deploy the link portfolio project [Git Hub]( )
+Deploy the link portfolio project [Git Hub](https://noeamelya.github.io/Bootstrap-Portfolio/ )
 
-![My Portfolio Project](./images/outcome.png)
-![My Portfolio info](./images/outcome2.png)
+![My Portfolio Project](./images/workout.png)
 
 ## LICENSE
 
